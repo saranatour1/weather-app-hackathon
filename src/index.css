@@ -55,7 +55,9 @@
   /* Blue */
   --color-blue-500: var(--blue-500);
   --color-blue-700: var(--blue-700);
+
   --font-dm-sans: var(--font-dm-sans);
+  --font-bricolage: var(--font-bricolage);
   /* spacing */
 
   --spacing-0: var(--spacing-0);
@@ -139,6 +141,7 @@
   --blue-700: #2B1B9C;
   /* Font */
   --font-dm-sans: 'DM Sans Variable', sans-serif;
+  --font-bricolage: 'Bricolage Grotesque Variable', sans-serif;
   --spacing-0: 0px;
   --spacing-025: 2px;
   --spacing-050: 4px;
@@ -262,12 +265,84 @@
 
 @layer components {
   .text-preset-1 {
+    font-family: var(--font-dm-sans);
     color: var(--color-neutral-900);
     font-size: var(--spacing-1200);
     line-height: var(--leading-26);
     letter-spacing: -2px;
     font-weight: var(--font-weight-semibold);
     font-style: italic;
-
   }
+
+  .text-preset-2 {
+    color: var(--color-neutral-900);
+    font-family: var(--font-bricolage);
+    font-weight: var(--font-weight-bold);
+    font-size: 52px;
+    line-height: var(--leading-120);
+    letter-spacing: var(--tracking-0);
+  }
+
+  .text-preset-3 {
+    color: var(--color-neutral-900);
+    font-size: var(--spacing-400);
+    line-height: var(--leading-26);
+    letter-spacing: var(--tracking-0);
+    font-family: var(--font-dm-sans);
+    font-weight: var(--font-weight-light);
+  }
+
+
+  .text-preset-4 {
+    color: var(--color-neutral-900);
+    font-size: 28px;
+    line-height: var(--leading-120);
+    letter-spacing: var(--tracking-0);
+    font-family: var(--font-dm-sans);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .text-preset-5 {
+    color: var(--color-neutral-900);
+    font-size: var(--spacing-250);
+    line-height: var(--leading-120);
+    letter-spacing: var(--tracking-0);
+    font-family: var(--font-dm-sans);
+    font-weight: var(--font-weight-semibold);
+  }
+
+    .text-preset-5-medium {
+    color: var(--color-neutral-900);
+    font-size: var(--spacing-250);
+    line-height: var(--leading-120);
+    letter-spacing: var(--tracking-0);
+    font-family: var(--font-dm-sans);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .text-preset-6 {
+    color: var(--color-neutral-900);
+    font-size: 18px;
+    line-height: var(--leading-120);
+    letter-spacing: var(--tracking-0);
+    font-family: var(--font-dm-sans);
+    font-weight: var(--font-weight-medium);
+  }
+  .text-preset-7 {
+    color: var(--color-neutral-900);
+    font-size: var(--spacing-200);
+    line-height: var(--leading-120);
+    letter-spacing: var(--tracking-0);
+    font-family: var(--font-dm-sans);
+    font-weight: var(--font-weight-medium);
+  }
+    .text-preset-8 {
+    color: var(--color-neutral-900);
+    font-size: 14px;
+    line-height: var(--leading-120);
+    letter-spacing: var(--tracking-0);
+    font-family: var(--font-dm-sans);
+    font-weight: var(--font-weight-medium);
+  }
+  
 }
