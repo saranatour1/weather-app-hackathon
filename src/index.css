@@ -90,6 +90,18 @@
   --radius-20: var(--radius-20);
   --radius-24: var(--radius-24);
   --radius-full: var(--radius-full);
+
+  /* Backgrounds, small icons can be added as images */
+  --bg-today-large: var(--bg-today-large);
+  --bg-today-small: var(--bg-today-small);
+  --bg-drizzle: var(--bg-drizzle);
+  --bg-fog: var(--bg-fog);
+  --bg-overcast: var(--bg-overcast);
+  --bg-partly-cloudy: var(--bg-partly-cloudy);
+  --bg-clear-sunny: var(--bg-clear-sunny);
+  --bg-rain: var(--bg-rain);
+  --bg-snow: var(--bg-snow);
+  --bg-thunder: var(--bg-thunder);
 }
 
 :root {
@@ -172,7 +184,17 @@
   --radius-20: 20px;
   --radius-24: 24px;
   --radius-full: 999px;
-  --bg-today-large: url("../")
+  --bg-today-large: url("./src/assets/bg-today-large.svg");
+  --bg-today-small: url("./src/assets/bg-today-small.svg");
+  --bg-drizzle: url("./src/assets/icon-drizzle.webp");
+  --bg-fog: url("./src/assets/icon-fog.webp");
+  --bg-overcast: url("./src/assets/icon-overcast.webp");
+  --bg-partly-cloudy:url("./src/assets/icon-partly-cloudy.webp");
+  --bg-clear-sunny:url("./src/assets/icon-sunny.webp");
+  --bg-rain:url("./src/assets/icon-rain.webp");
+  --bg-snow:url("./src/assets/icon-snow.webp");
+  --bg-thunder:url("./src/assets/icon-storm.webp");
+
 }
 
 .dark {
@@ -252,6 +274,17 @@
   --radius-20: 20px;
   --radius-24: 24px;
   --radius-full: 999px;
+
+  --bg-today-large: url("./src/assets/bg-today-large.svg");
+  --bg-today-small: url("./src/assets/bg-today-small.svg");
+  --bg-drizzle: url("./src/assets/icon-drizzle.webp");
+  --bg-fog: url("./src/assets/icon-fog.webp");
+  --bg-overcast: url("./src/assets/icon-overcast.webp");
+  --bg-partly-cloudy:url("./src/assets/icon-partly-cloudy.webp");
+  --bg-clear-sunny:url("./src/assets/icon-sunny.webp");
+  --bg-rain:url("./src/assets/icon-rain.webp");
+  --bg-snow:url("./src/assets/icon-snow.webp");
+  --bg-thunder:url("./src/assets/icon-storm.webp");
 }
 
 @layer base {
