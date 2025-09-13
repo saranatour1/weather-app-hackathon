@@ -1,12 +1,21 @@
-
 import '@fontsource-variable/dm-sans';
 // Supports weights 200-800
 import '@fontsource-variable/bricolage-grotesque';
-function App() {
+import { UnitsDropDown } from './components/shared';
 
-  return (
-    <p className='text-preset-2'>The quick brown fox jumps over the lazy dog.</p>
-  )
+
+function App() {
+  return (<main className='w-full flex items-start justify-start bg-neutral-900 max-w-full min-h-screen px-28 pt-12'>
+    <section className='w-full'>
+      <nav className='w-full flex items-center justify-between'>
+        {/* Logo */}
+        <img loading='lazy' src='./src/assets/logo.svg' className=''/>
+
+        {/* The units Dropdown component */}
+        <UnitsDropDown />
+      </nav>
+    </section>
+  </main>)
 }
 
 export default App
